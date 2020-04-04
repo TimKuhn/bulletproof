@@ -1,5 +1,5 @@
 <template>
-  <div class="foods antialiased h-screen bg-gray-700">
+  <div class="foods antialiased min-h-screen bg-gray-700">
     <section
       id="category-nav"
       class="flex sticky top-0 overflow-scroll text-gray-600 bg-gray-400 shadow-inner"
