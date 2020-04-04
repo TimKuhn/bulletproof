@@ -1,0 +1,42 @@
+[
+    {
+        "name":"Beverages",
+        "img":"beverage.png"
+    },
+    {
+        "name":"Veggies",
+        "img":"veggie.png"
+    },
+    {
+        "name":"Oil & Fats",
+        "img":"fats.png"
+    },
+    {
+        "name":"Nuts, Seeds & Legumes",
+        "img":"nuts.png"
+    },
+    {
+        "name":"Dairy",
+        "img":"dairy.png"
+    },
+    {
+        "name":"Protein",
+        "img":"meat.png"
+    },
+    {
+        "name":"Starch",
+        "img":"starch.png"
+    },
+    {
+        "name":"Fruit",
+        "img":"fruit.png"
+    },
+    {
+        "name":"Spices & Flavorings",
+        "img":"spices.png"
+    },
+    {
+        "name":"Sweeteners",
+        "img":"sweetener.png"
+    }
+]

@@ -13,10 +13,10 @@
           <div class="text-xs pb-2">Timing</div>
         </div>
       </router-link>
-      <router-link to="/else1" :class="{ 'text-red-600': '/else1' == this.$route.fullPath }">
+      <router-link to="/fooddetail" :class="{ 'text-red-600': '/fooddetail' == this.$route.fullPath }">
         <div class="px-4 pt-2 text-center">
           <font-awesome-icon icon="clock" class="text-2xl"/>
-          <div class="text-xs pb-2">Else</div>
+          <div class="text-xs pb-2">Food Detail</div>
         </div>
       </router-link>
       <router-link to="/else2" :class="{ 'text-red-600': '/else2' == this.$route.fullPath }">
