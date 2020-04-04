@@ -1,5 +1,5 @@
 <template>
-  <div @click="openFoodDetail" class="flex mx-2 shadow-md rounded-lg h-20 my-2 bg-white">
+  <div @click="openFoodDetail(food_data.id)" class="flex mx-2 shadow-md rounded-lg h-20 my-2 bg-white">
     <img class="w-1/5 object-cover rounded-l-lg" :src="require(`@/assets/foods/${food_data.img}`)" />
     <div class="pl-8 w-3/5 my-auto truncate">
       <div class="text-gray-800">{{food_data.name}}</div>
@@ -31,7 +31,9 @@ export default {
     };
   },
   methods: {
-    
+    openFoodDetail(foodID){
+      this.$router.push(`/fooddetail/${foodID}`)
+    }
   }
 };
 </script>

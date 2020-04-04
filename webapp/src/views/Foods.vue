@@ -1,27 +1,17 @@
 <template>
   <div class="foods antialiased h-screen bg-gray-100">
-    <!-- <section id="category-nav" class="flex sticky top-0 overflow-scroll text-lg text-gray-600 border-b bg-gray-100 ">
-      <div 
-        v-for="category in this.$store.state.unique_categories" :key="category"
-        class="whitespace-no-wrap p-4 px-4 rounded-sm hover: cursor-pointer"
-        :class="{ 'text-gray-900 bg-gray-300':  category == selected_category}"
-        @click="selectCategory(category)"
-        >
-        {{category}}
-        </div>
-    </section>-->
     <section
       id="category-nav"
-      class="flex sticky top-0 overflow-scroll text-gray-600 border-b bg-gray-100"
+      class="flex sticky top-0 overflow-scroll text-gray-600 border-b bg-white"
     >
       <div
         v-for="category in categories"
         :key="category.name"
-        class="whitespace-no-wrap rounded-sm hover: cursor-pointer"
-        :class="{ 'text-gray-900 bg-gray-300 border-gray-700 border':  category.name == selected_category}"
+        class="whitespace-no-wrap rounded-sm hover: cursor-pointer py-2"
+        :class="{ 'text-gray-900 bg-gray-300 border-gray-700 border px-4':  category.name == selected_category}"
         @click="selectCategory(category.name)"
       >
-        <img class="object-cover" :src="require(`@/assets/categories/${category.img}`)" />
+        <img class="" :src="require(`@/assets/categories/${category.img}`)" />
       </div>
     </section>
 

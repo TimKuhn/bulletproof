@@ -3,6 +3,9 @@
     <div>Detail</div>
     <div>{{id}}</div>
     <div>{{getData}}</div>
+
+
+    <div class="pt-24">Similar Foods</div>
   </div>
 </template>
 
