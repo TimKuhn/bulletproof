@@ -2,13 +2,13 @@
   <div class="foods antialiased min-h-screen bg-gray-700">
     <section
       id="category-nav"
-      class="flex sticky top-0 overflow-scroll text-gray-600 bg-gray-400 shadow-inner"
+      class="flex sticky top-0 text-gray-600 bg-gray-400 shadow-inner"
     >
       <div
         v-for="category in categories"
         :key="category.name"
         @dblclick="preventDbClick"
-        class="whitespace-no-wrap rounded-sm hover: cursor-pointer py-2"
+        class="rounded-sm hover: cursor-pointer py-2"
         :class="{ 'text-gray-900 bg-gray-300 border-blue-600 border px-4':  category.name == selected_category}"
         @click="selectCategory(category.name)"
       >
@@ -23,7 +23,6 @@
     <section id="foods">
       <Food v-for="food in foodsOfCategory" :key="food.id" :food_data="food" />
     </section>
-    
   </div>
 </template>
 
@@ -40,7 +39,7 @@ export default {
   data() {
     return {
       foods,
-      categories,
+      categories
     };
   },
   methods: {
