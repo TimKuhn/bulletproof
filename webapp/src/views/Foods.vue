@@ -1,8 +1,8 @@
 <template>
-  <div class="foods antialiased h-screen bg-gray-100">
+  <div class="foods antialiased h-screen bg-gray-700">
     <section
       id="category-nav"
-      class="flex sticky top-0 overflow-scroll text-gray-600 border-b bg-white"
+      class="flex sticky top-0 overflow-scroll text-gray-600 bg-gray-400 shadow-inner"
     >
       <div
         v-for="category in categories"
@@ -23,7 +23,7 @@
     <section id="foods">
       <Food v-for="food in foodsOfCategory" :key="food.id" :food_data="food" />
     </section>
-    <FoodDetail v-if="isActive" />
+    
   </div>
 </template>
 
@@ -41,7 +41,6 @@ export default {
     return {
       foods,
       categories,
-      isActive: false
     };
   },
   methods: {
@@ -49,6 +48,7 @@ export default {
       this.$store.dispatch("selectCategory", category);
     },
     preventDbClick(event) {
+      // This prevents the zoom functionality on a mobile phone
       event.preventDefault();
     }
   },
