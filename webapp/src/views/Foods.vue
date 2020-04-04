@@ -12,16 +12,16 @@
     </section>-->
     <section
       id="category-nav"
-      class="flex sticky top-0 overflow-scroll text-2xl text-gray-600 border-b bg-gray-100"
+      class="flex sticky top-0 overflow-scroll text-gray-600 border-b bg-gray-100"
     >
       <div
         v-for="category in categories"
         :key="category.name"
-        class="whitespace-no-wrap p-4 px-4 rounded-sm hover: cursor-pointer"
-        :class="{ 'text-gray-900 bg-gray-300 border-green-400 border':  category.name == selected_category}"
+        class="whitespace-no-wrap rounded-sm hover: cursor-pointer"
+        :class="{ 'text-gray-900 bg-gray-300 border-gray-700 border':  category.name == selected_category}"
         @click="selectCategory(category.name)"
       >
-        <img class="object-cover w-48" :src="require(`@/assets/categories/${category.img}`)" />
+        <img class="object-cover" :src="require(`@/assets/categories/${category.img}`)" />
       </div>
     </section>
 
