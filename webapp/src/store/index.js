@@ -7,7 +7,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     foods,
-    selected_category: null,
+    selected_category: "Beverages",
     activePage: null,
     unique_categories: [... new Set(foods.map(food => food.category))] // Get unique categories
   },
