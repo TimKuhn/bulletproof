@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav" class="fixed bottom-0 flex justify-around antialiased border-t w-full text-gray-600 uppercase">
+    <div id="nav" class="fixed bottom-0 flex justify-around antialiased border-t w-full text-gray-600 bg-gray-100 uppercase">
       <router-link to="/foods" :class="{ 'text-red-600': '/foods' == this.$route.fullPath }">
         <div class="px-4 pt-2 text-center" >
           <font-awesome-icon icon="clock" class="text-2xl"/>

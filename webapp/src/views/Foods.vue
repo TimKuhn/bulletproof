@@ -1,16 +1,16 @@
 <template>
   <div class="foods antialiased h-screen bg-gray-100">
-    <section id="category-nav" class="flex overflow-scroll text-lg text-gray-600 border-b">
+    <section id="category-nav" class="flex sticky top-0 overflow-scroll text-lg text-gray-600 border-b bg-gray-100">
       <div 
         v-for="category in this.$store.state.unique_categories" :key="category"
-        class="whitespace-no-wrap p-2 px-4  rounded-sm"
+        class="whitespace-no-wrap p-4 px-4 rounded-sm"
         :class="{ 'text-gray-900 bg-gray-300':  category == selected_category}"
         @click="selectCategory(category)"
         >
         {{category}}
         </div>
     </section>
-    <section id="filter" class="h-6 my-auto">
+    <section id="filter" class="my-auto">
       <!-- TODO: ADD FILTER HERE -->
       <span></span>
     </section>
