@@ -9,7 +9,17 @@ export default new Vuex.Store({
     foods,
     selected_category: "Beverages",
     activePage: null,
-    unique_categories: [... new Set(foods.map(food => food.category))] // Get unique categories
+    unique_categories: [... new Set(foods.map(food => food.category))], // Get unique categories
+    health_level_to_color: {
+      8: "text-green-700",
+      7: "text-green-500",
+      6: "text-green-300",
+      5: "text-yellow-200",
+      4: "text-yellow-400",
+      3: "text-orange-200",
+      2: "text-orange-400",
+      1: "text-red-500"
+    }
   },
   mutations: {
     selectCategory(state, category){

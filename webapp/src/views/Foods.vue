@@ -9,10 +9,10 @@
         :key="category.name"
         @dblclick="preventDbClick"
         class="whitespace-no-wrap rounded-sm hover: cursor-pointer py-2"
-        :class="{ 'text-gray-900 bg-gray-300 border-gray-700 border px-4':  category.name == selected_category}"
+        :class="{ 'text-gray-900 bg-gray-300 border-blue-600 border px-4':  category.name == selected_category}"
         @click="selectCategory(category.name)"
       >
-        <img class :src="require(`@/assets/categories/${category.img}`)" />
+        <img :src="require(`@/assets/categories/${category.img}`)" />
       </div>
     </section>
 
