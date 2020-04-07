@@ -4,6 +4,7 @@ import Foods from '../views/Foods.vue'
 import Timing from '../views/Timing.vue'
 import FoodDetail from '../views/FoodDetail.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [

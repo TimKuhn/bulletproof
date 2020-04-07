@@ -30,7 +30,7 @@
       </div>
 
       <section class="mt-8">
-        <div class="-mb-3 bg-white-700 w-40 ml-2 px-2 text-center rounded-md font-light">Nutrition Basics</div>
+        <div class="-mb-3 bg-gray-700 w-40 ml-2 px-2 text-center rounded-md font-light">Nutrition Basics</div>
         <div
           class="text-gray-500 h-24 flex justify-around text-center items-center border-t border-b border-1 border-gray-700"
         >
@@ -50,7 +50,7 @@
       </section>
       <div class="p-6 font-thin mt-4">{{food.description}}</div>
 
-      <div class="p-6 pt-24">Alternatives</div>
+      <div class="p-6 pt-12">Alternatives</div>
     </div>
   </div>
 </template>

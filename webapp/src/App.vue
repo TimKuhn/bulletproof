@@ -1,5 +1,14 @@
 <template>
   <div id="app">
+    <!-- SEARCH -->
+    <div v-if="search">
+      <div class="fixed w-full top-0 z-20 mx-auto">
+        <input type="text" class="text-sm tracking-wide pl-4 w-full h-12 focus:outline-none" placeholder="Search for foods, descriptions and so on...">
+      </div>
+    </div>
+    <div v-if="search" class="fixed w-full z-10 min-h-screen bg-gray-300 opacity-75" @click="search = !search">
+    </div>
+    <!-- SEARCH END -->
     <div
       id="nav"
       class="fixed bottom-0 flex justify-around antialiased w-full text-gray-600 bg-gray-900 uppercase border-t border-blue-600"
@@ -16,27 +25,19 @@
           <div class="pb-2" style="font-size: .5rem;">Timing</div>
         </div>
       </router-link>
-      <router-link
-        to="/fooddetail"
-        :class="{ 'text-blue-600': '/fooddetail' == this.$route.fullPath }"
-      >
+
+      <router-link to="/guide" :class="{ 'text-blue-600': '/guide' == this.$route.fullPath }">
         <div class="px-4 pt-2 text-center">
           <font-awesome-icon icon="clock" class="text-2xl" />
-          <div class="pb-2" style="font-size: .5rem;">Food Detail</div>
+          <div class="pb-2" style="font-size: .5rem;">Guide</div>
         </div>
       </router-link>
-      <router-link to="/else2" :class="{ 'text-blue-600': '/else2' == this.$route.fullPath }">
+      <div @click="search = !search">
         <div class="px-4 pt-2 text-center">
           <font-awesome-icon icon="clock" class="text-2xl" />
-          <div class="pb-2" style="font-size: .5rem;">Else</div>
+          <div class="pb-2" style="font-size: .5rem;">Search</div>
         </div>
-      </router-link>
-      <router-link to="/else3" :class="{ 'text-blue-600': '/else3' == this.$route.fullPath }">
-        <div class="px-4 pt-2 text-center">
-          <font-awesome-icon icon="clock" class="text-2xl" />
-          <div class="pb-2" style="font-size: .5rem;">Else</div>
-        </div>
-      </router-link>
+      </div>
     </div>
     <router-view />
   </div>
@@ -45,7 +46,8 @@
 export default {
   data() {
     return {
-      stuff: this.$route
+      stuff: this.$route,
+      search: false
     };
   },
   computed: {
@@ -56,6 +58,5 @@ export default {
 };
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
 </style>
