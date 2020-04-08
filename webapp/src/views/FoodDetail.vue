@@ -58,7 +58,7 @@
 <script>
 export default {
   props: {
-    id: String
+    name: String
   },
   methods: {
     goToPreviousPage() {
@@ -68,7 +68,7 @@ export default {
   computed: {
     food() {
       return (
-        this.$store.state.foods.find(food => food.id == this.id) ||
+        this.$store.state.foods.find(food => food.name == this.name) ||
         "Food not found"
       );
     }

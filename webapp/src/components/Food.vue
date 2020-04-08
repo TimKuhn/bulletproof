@@ -1,6 +1,6 @@
 <template>
   <div
-    @click="openFoodDetail(food_data.id)"
+    @click="openFoodDetail(food_data.name)"
     class="flex mx-2 shadow-md rounded-lg h-20 my-2 bg-gray-900 hover: cursor-pointer"
   >
     <img class="h-20 w-20 object-cover p-2 rounded-full" :src="require(`@/assets/foods/${food_data.img}`)" />
@@ -30,8 +30,8 @@ export default {
     };
   },
   methods: {
-    openFoodDetail(foodID) {
-      this.$router.push(`/fooddetail/${foodID}`);
+    openFoodDetail(foodName) {
+      this.$router.push(`/fooddetail/${foodName}`);
     }
   }
 };

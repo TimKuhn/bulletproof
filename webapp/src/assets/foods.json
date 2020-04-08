@@ -1,25 +1,6 @@
 [
     {
         "id": "1",
-        "name": "Brocolli Grass Feed with Meat and Dairy and other stuff...",
-        "category": "Beverages",
-        "health_level": 7,
-        "description": "Instead of leaving all of the heavy lifting to font size alone, try using font weight or color to do the same job. For example, making a primary element bolder lets you use a more",
-        "nutrition_basic": {
-            "kcal": 100,
-            "unit": "100g",
-            "carbohydrates": 100,
-            "protein": 100,
-            "fats": 100
-        },
-        "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
-        "img": "brocolli.jpeg",
-        "what_to_look_for": "",
-        "links": []
-    },
-    {
-        "id": "1",
         "name": "Asparagus",
         "category": "Veggies",
         "health_level": 7,
@@ -32,7 +13,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -51,7 +32,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -70,7 +51,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -89,7 +70,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -108,7 +89,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -127,7 +108,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -146,7 +127,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -165,7 +146,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -184,7 +165,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -203,7 +184,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -222,7 +203,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -241,7 +222,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -260,7 +241,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -279,7 +260,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -298,7 +279,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -317,7 +298,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -336,7 +317,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -355,7 +336,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -374,7 +355,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -393,7 +374,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -412,7 +393,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -431,7 +412,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -450,7 +431,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -469,7 +450,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -488,7 +469,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -507,7 +488,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -526,7 +507,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -545,7 +526,7 @@
             "fats": 0
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -565,7 +546,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -586,7 +567,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -607,7 +588,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -628,7 +609,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -649,7 +630,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -670,7 +651,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -691,7 +672,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -712,7 +693,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -733,7 +714,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -754,7 +735,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -775,7 +756,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -796,7 +777,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -817,7 +798,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -838,7 +819,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -859,7 +840,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -880,7 +861,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -901,7 +882,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -922,7 +903,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -943,7 +924,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -964,7 +945,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -985,7 +966,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1006,7 +987,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1027,7 +1008,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1048,7 +1029,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1069,7 +1050,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1090,7 +1071,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1111,7 +1092,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1132,7 +1113,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1153,7 +1134,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1174,7 +1155,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1195,7 +1176,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1216,7 +1197,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1237,7 +1218,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1258,7 +1239,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1279,7 +1260,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1300,7 +1281,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1321,7 +1302,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1342,7 +1323,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1363,7 +1344,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1384,7 +1365,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1405,7 +1386,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1426,7 +1407,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1447,7 +1428,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1468,7 +1449,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1489,7 +1470,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1510,7 +1491,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1531,7 +1512,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1552,7 +1533,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1573,7 +1554,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1594,7 +1575,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1615,7 +1596,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1636,7 +1617,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1657,7 +1638,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1678,7 +1659,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1699,7 +1680,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1720,7 +1701,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1741,7 +1722,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1762,7 +1743,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1783,7 +1764,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1804,7 +1785,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1825,7 +1806,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1846,7 +1827,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1867,7 +1848,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1888,7 +1869,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1909,7 +1890,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1930,7 +1911,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1951,7 +1932,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1972,7 +1953,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -1993,7 +1974,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2014,7 +1995,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2035,7 +2016,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2056,7 +2037,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2077,7 +2058,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2098,7 +2079,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2119,7 +2100,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2140,7 +2121,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2161,7 +2142,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2182,7 +2163,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2203,7 +2184,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2224,7 +2205,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
@@ -2245,7 +2226,7 @@
             
         },
         "nutrition_advanced": {},
-        "when_to_eat": "12pm - 8pm",
+        "when_to_eat": ["lunch", "dinner"],
         "img": "brocolli.jpeg",
         "what_to_look_for": "",
         "links": []
