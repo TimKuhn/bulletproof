@@ -14,42 +14,49 @@
             placeholder="Search for foods, descriptions and so on..."
             v-model="clientSearchText"
           />
+          <button
+            @click="searchActive = !searchActive"
+            class="absolute top-0 right-0 pt-2 pr-8 text-xl text-gray-600"
+          >&times;</button>
         </div>
       </div>
       <!-- SEARCH END -->
       <!-- SEARCH RESULTS -->
-      <div
-        v-if="clientSearchText"
-        class="z-20 bg-gray-100"
-      >
-        <section v-if="searchResultsFoods" id="foodResults" class="flex pt-6 pb-2">
-          <div class="font-semibold w-1/2 pl-4">Foods</div>
-          <ul class="w-1/2">
-            <li v-for="result in searchResultsFoods" :key="result" class="relative h-10">
-              <a class="absolute w-full h-full right-0 top-0" :href="`/fooddetail/${result}`">{{result}}</a>
-            </li>
-          </ul>
+      <div v-if="clientSearchText && searchResultsFoods" class="z-10 bg-gray-100 overflow-scroll">
+        <section
+          v-if="searchResultsFoods"
+          id="foodResults"
+          class="flex flex-1 py-6 overflow-y-scroll"
+        >
+          <div class="font-semibold w-1/3 pl-4">Foods</div>
+          <div class="w-2/3 flex flex-col h-64 overflow-y-auto">
+            <a
+              :href="`/fooddetail/${result}`"
+              v-for="result in searchResultsFoods"
+              :key="result"
+              class="w-full h-10 mt-4"
+            >
+              <div class>{{result.name}}</div>
+              <div class="flex">
+                <div class="text-xs text-gray-600">{{result.category}}</div>
+                <div  class="pl-4 text-xs text-gray-600">{{result.when_to_eat}}</div>
+              </div>
+            </a>
+          </div>
         </section>
-        <!-- <section v-if="searchResultsTiming" id="timingResults" class="flex border-t pt-4 pb-2">
-          <div class="font-semibold w-1/2 pl-4">Timing</div>
-          <ul class="w-1/2">
-            <li v-for="result in searchResultsTiming" :key="result" class="pb-2">
-              <div>{{result}}</div>
-            </li>
-          </ul>
-        </section> -->
       </div>
       <!-- SEARCH RESULTS END-->
 
       <!-- OVERLAY -->
       <div
         v-if="searchActive"
-        class="w-full z-10 h-screen bg-gray-300 opacity-75"
+        class="w-full z-0 h-screen bg-gray-300 opacity-75"
         @click="searchActive = !searchActive"
       ></div>
       <!-- OVERLAY END -->
     </div>
     <!-- SEARCH INPUT WRAPPER END-->
+
     <div
       id="nav"
       class="fixed bottom-0 flex justify-around antialiased w-full text-gray-600 bg-gray-900 uppercase border-t border-blue-600"
@@ -107,14 +114,16 @@ export default {
     },
     searchResultsFoods() {
       // Searches within the foods for a match
-      return foods
-        .filter(food => food.name.toLowerCase().includes(this.clientSearchText.toLowerCase()))
-        .map(matchedFood => matchedFood.name);
+      return foods.filter(food =>
+        food.name.toLowerCase().includes(this.clientSearchText.toLowerCase())
+      );
     },
     searchResultsCategories() {
       // Searches within the foods for a match
       let categories = foods
-        .filter(food => food.category.includes(this.clientSearchText.toLowerCase()))
+        .filter(food =>
+          food.category.includes(this.clientSearchText.toLowerCase())
+        )
         .map(matchedFood => matchedFood.category);
 
       return [...new Set(categories)];
