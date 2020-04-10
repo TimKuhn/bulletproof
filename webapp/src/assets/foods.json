@@ -673,7 +673,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "pumpkin.webp",
+        "img": "pumpkin.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1471,7 +1471,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "corn-on-the-cob.webp",
+        "img": "corn-on-the-cob.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1618,7 +1618,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "whey.webp",
+        "img": "whey.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1639,7 +1639,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "collagen-protein.webp",
+        "img": "collagen-protein.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1660,7 +1660,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "colla-gelatin.webp",
+        "img": "colla-gelatin.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1702,7 +1702,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "lamb.webp",
+        "img": "lamb.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1723,7 +1723,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "eggs.webp",
+        "img": "eggs.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1744,7 +1744,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "colustrum.webp",
+        "img": "colustrum.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1765,7 +1765,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "anchovies.webp",
+        "img": "anchovies.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1786,7 +1786,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "haddock.webp",
+        "img": "haddock.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1807,7 +1807,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "sardines.webp",
+        "img": "sardines.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1828,7 +1828,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "sockeye-salmon.webp",
+        "img": "sockeye-salmon.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1849,7 +1849,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "flounder.webp",
+        "img": "flounder.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1870,7 +1870,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "trout.webp",
+        "img": "trout.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1891,7 +1891,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "pork.webp",
+        "img": "pork.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1912,7 +1912,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "whey.webp",
+        "img": "whey.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1933,7 +1933,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "duck.webp",
+        "img": "duck.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1954,7 +1954,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "eggs.webp",
+        "img": "eggs.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1975,7 +1975,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "chicken.webp",
+        "img": "chicken.png",
         "what_to_look_for": "",
         "links": []
         
@@ -1996,7 +1996,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "whey.webp",
+        "img": "whey.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2017,7 +2017,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "hemp-protein.webp",
+        "img": "hemp-protein.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2038,7 +2038,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "meat.webp",
+        "img": "meat.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2059,7 +2059,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "seafood.webp",
+        "img": "seafood.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2080,7 +2080,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "white-rice.webp",
+        "img": "white-rice.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2101,7 +2101,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "pea-protein.webp",
+        "img": "pea-protein.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2122,7 +2122,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "soy-protein.webp",
+        "img": "soy-protein.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2143,7 +2143,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "wheat-protein.webp",
+        "img": "wheat-protein.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2164,7 +2164,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "beans.webp",
+        "img": "beans.png",
         "what_to_look_for": "",
         "links": []
         
@@ -2185,7 +2185,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "cheese.webp",
+        "img": "cheese.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3111,7 +3111,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "pumpkin.webp",
+        "img": "pumpkin.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3132,7 +3132,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "butternut-squash.webp",
+        "img": "butternut-squash.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3153,7 +3153,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "sweet-potato.webp",
+        "img": "sweet-potato.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3175,7 +3175,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "carrot.webp",
+        "img": "carrot.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3196,7 +3196,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "white-rice.webp",
+        "img": "white-rice.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3217,7 +3217,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "cassava.webp",
+        "img": "cassava.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3238,7 +3238,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "taro.webp",
+        "img": "taro.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3259,7 +3259,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "plantain.webp",
+        "img": "plantain.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3280,7 +3280,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "resistant-starch-powder.webp",
+        "img": "resistant-starch-powder.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3301,7 +3301,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "black-rice.webp",
+        "img": "black-rice.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3322,7 +3322,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "wild-rice.webp",
+        "img": "wild-rice.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3343,7 +3343,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "brown-rice.webp",
+        "img": "brown-rice.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3364,7 +3364,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "banana.webp",
+        "img": "banana.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3385,7 +3385,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "corn-on-the-cob.webp",
+        "img": "corn-on-the-cob.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3406,7 +3406,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "potatoes.webp",
+        "img": "potatoes.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3427,7 +3427,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "buckwheat.webp",
+        "img": "buckwheat.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3448,7 +3448,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "oats.webp",
+        "img": "oats.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3469,7 +3469,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "quinoa.webp",
+        "img": "quinoa.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3490,7 +3490,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "wheat.webp",
+        "img": "wheat.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3511,7 +3511,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "corn-on-the-cob.webp",
+        "img": "corn-on-the-cob.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3532,7 +3532,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "millet.webp",
+        "img": "millet.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3553,7 +3553,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "other-grains.webp",
+        "img": "other-grains.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3574,7 +3574,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "potato-starch.webp",
+        "img": "potato-starch.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3595,7 +3595,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "corn-starch.webp",
+        "img": "corn-starch.png",
         "what_to_look_for": "",
         "links": []
         
@@ -3616,7 +3616,7 @@
         },
         "nutrition_advanced": {},
         "when_to_eat": ["lunch", "dinner"],
-        "img": "gluten-free-powders.webp",
+        "img": "gluten-free-powders.png",
         "what_to_look_for": "",
         "links": []
         
