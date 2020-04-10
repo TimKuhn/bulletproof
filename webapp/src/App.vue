@@ -31,10 +31,10 @@
           <div class="font-semibold w-1/3 pl-4">Foods</div>
           <div class="w-2/3 flex flex-col h-64 overflow-y-auto">
             <a
-              :href="`/fooddetail/${result}`"
+              :href="`/fooddetail/${result.name}`"
               v-for="result in searchResultsFoods"
               :key="result"
-              class="w-full h-10 mt-4"
+              class="w-full h-10 "
             >
               <div class>{{result.name}}</div>
               <div class="flex">
