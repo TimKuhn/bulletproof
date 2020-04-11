@@ -1,8 +1,5 @@
 [
-    {
-        "name":"Beverages",
-        "img":"beverage.png"
-    },
+    
     {
         "name":"Veggies",
         "img":"veggie.png"
@@ -30,13 +27,6 @@
     {
         "name":"Fruit",
         "img":"fruit.png"
-    },
-    {
-        "name":"Spices & Flavorings",
-        "img":"spices.png"
-    },
-    {
-        "name":"Sweeteners",
-        "img":"sweetener.png"
     }
+
 ]
